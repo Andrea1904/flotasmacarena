@@ -13,12 +13,12 @@ export class InicioComponent implements OnInit {
   constructor(private _homeservice:ServiceService) { }
 
   ngOnInit(): void {
-  /*  this._homeservice.getHome(this.nit)
+    this._homeservice.getHome(this.nit)
     .subscribe((res:any) => {
       this.data = res;
-    });*/
+    });
 
-    this.data={"_id":"60ce101a06b24b4483ac8acc","nit":"800220154","nombre":"Flotas la Macarena","capa":"Oro","segmento":"A","gerenteRelacion":"Carlos Gómez"}
+   
   }
 
 }

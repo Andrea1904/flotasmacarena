@@ -1,17 +1,1 @@
 
- .bank-footer {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    background-color: #fff;
-}
-.logo-footer {
-    max-width: 120px;
-    float: right;
-    margin: 20px;
-}
-@media (max-width: 768px) {
-    .logo-footer {
-        float: none;
-    }
-}
